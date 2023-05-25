@@ -14,15 +14,15 @@ to run tests:
 
 ### Examples of usage
 example urls how to use developed endpoint:
-localhost:3000/list
-localhost:3000/list?name=st
-localhost:3000/list?order=ascend
-localhost:3000/list?limit=1
-localhost:3000/list?order=ascend&limit=1
-localhost:3000/list?name=st&limit=2
-localhost:3000/list?population=1&limit=3
-localhost:3000/list?population=5&name=st&limit=4
-localhost:3000/list?population=5&order=ascend&limit=6
-localhost:3000/list?population=7&name=st&order=ascend
-localhost:3000/list?name=st&order=ascend&limit=6
-localhost:3000/list?population=7&name=st&order=ascend&limit=6
+- localhost:3000/list
+- localhost:3000/list?name=st
+- localhost:3000/list?order=ascend
+- localhost:3000/list?limit=1
+- localhost:3000/list?order=ascend&limit=1
+- localhost:3000/list?name=st&limit=2
+- localhost:3000/list?population=1&limit=3
+- localhost:3000/list?population=5&name=st&limit=4
+- localhost:3000/list?population=5&order=ascend&limit=6
+- localhost:3000/list?population=7&name=st&order=ascend
+- localhost:3000/list?name=st&order=ascend&limit=6
+- localhost:3000/list?population=7&name=st&order=ascend&limit=6
