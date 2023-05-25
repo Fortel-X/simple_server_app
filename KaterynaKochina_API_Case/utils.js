@@ -25,11 +25,13 @@ const sortCountriesByName = (countries, order) => {
             if (countryAName > countryBName) return 1
             else if (countryAName < countryBName) return -1
             else return 0
-        } else {
+        } else if (order === DESC_ORDER) {
             if (countryAName < countryBName) return 1
             else if (countryAName > countryBName) return -1
             else return 0
         }
+
+        return 0
     })
 }
 
