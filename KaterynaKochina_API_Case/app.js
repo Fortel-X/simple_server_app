@@ -15,6 +15,7 @@ app.get('/list', async (req, res) => {
 
     const countriesFetch = await axios.get('https://restcountries.com/v3.1/all')
     let countries = countriesFetch.data
+
     countries = name ? filterCountriesByName(countries, name) : countries
     countries = population ? filterCountriesByPopulation(countries, population) : countries
     countries = order ? sortCountriesByName(countries, order) : countries
