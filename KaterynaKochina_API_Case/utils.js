@@ -33,10 +33,15 @@ const sortCountriesByName = (countries, order) => {
     })
 }
 
+const countriesSlice = (countries, limit) => {
+    return countries.slice(0, limit)
+}
+
 module.exports = {
     ASC_ORDER,
     DESC_ORDER,
     filterCountriesByName,
     filterCountriesByPopulation,
-    sortCountriesByName
+    sortCountriesByName,
+    countriesSlice
 }
