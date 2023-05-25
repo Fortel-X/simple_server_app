@@ -86,10 +86,8 @@
             const res = countriesSlice(countriesMock, n)
 
             let isMatch = res.every((country, index) => {
-                if (country.name.common !== countriesMock[index].name.common) {
-                    return false
-                }
-                return true
+                return country.name.common === countriesMock[index].name.common;
+
             })
             assert(res.length === n && isMatch)
         })
