@@ -1,16 +1,18 @@
 # simple_server_app
-There is a simple server app, that performs calls to API and collects data in file JSON format.
+There is a simple server app, that performs calls to API and collects data in JSON format.
 
 Additionally, it includes filtering rules and pagination functionality that allows users to consume only necessary data in selected amounts.
 Also it contains functionality that allows sorting data to consume it more seamlessly and effectively.
-As an external API https://restcountries.com/v3.1 is used.
+As an external API [restcountries.com](https://restcountries.com/v3.1) is used.
 
+### How to run it
 to run an app localy use from the root project directory command:
-npm run start
+`npm run start`
 
 to run tests:
-npm run test
+`npm run test`
 
+### Examples of usage
 example urls how to use developed endpoint:
 localhost:3000/list
 localhost:3000/list?name=st
